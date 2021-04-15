@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Zen+Dots&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Modak', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: grey;
+    font-size: 20px;
+}
+
+.extra-div h2 {
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url("../unplashimages/maryjoy-caballero-Bsb2Pf9HF9A-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+
+}
+.navbar-toggler{
+    color:black;
+}
+.navbar-toggler-icon{
+    color: white;
+
+}
+
+.header:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+
+}
+
+.navbar:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+
+}
+
+.nav-item a {
+    color: white !important;
+    font-weight: bold;
+}
+
+.header-section {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    color: whitesmoke;
+    text-align: center;
+    position: realtive;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+}
+
+.header-button a {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-button a:hover {
+    color: #50d1c0;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
+}
+.mainhead{
+  font-family: 'Orelega One', cursive;  
+
+}
+.section2heading{
+    font-family: 'Merriweather', serif;
+}
+.center-div {
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: white;
+}
+
+.header-extradiv {
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+
+
+}
+.subhead{
+     font-family: 'Merriweather', serif;
+     color: white;
+     font-size: 20px;
+
+}
+.rotate {
+    animation: rotation 2s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+
+.extra-div {
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3sec;
+}
+.img{
+    max-width: 90%;
+    height: auto;
+}
+.abttext{
+max-width: 90%;
+height: auto;
+
+}
+.extra-div:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
+.card{
+    box-shadow: 0px 10px 20px -4px black
+}
+.row {
+    display: inline:
+}
+.who{
+    font-size: 60px;
+    
+    font-family: 'Orelega One', cursive;}
+.contact{
+    background-color: lightgrey;
+}
+.footer{
+    background-color: white;
+    width: 100vw;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+
+}
+@media(max-width: 768px){
+    html{
+        width:100vw;
+        height: 100vh;
+    }
+    .card{
+        margin-left: 100px;
+        margin-top: 20px
+    }
+   .who{
+    margin-left: 20px;
+   }
+   .para{
+    margin-left: 20px
+   }
+}
